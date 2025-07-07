@@ -1,0 +1,45 @@
+/* Estilização básica do site */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  background-color: #222;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+nav ul li a:hover {
+  background-color: #444;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+  background-color: white;
+  min-height: 70vh;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
